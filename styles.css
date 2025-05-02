@@ -1,62 +1,52 @@
-body {
-    font-family: 'Arial', sans-serif;
+* {
     margin: 0;
     padding: 0;
-    color: #333;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.6;
-}
-
-header {
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a {
-    margin-left: 20px;
-    text-decoration: none;
     color: #333;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.tags {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tag {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #333;
+    border-radius: 100px;
+    font-size: 0.9rem;
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 14px;
+    letter-spacing: 0.5px;
 }
 
-.hero {
-    padding: 60px 40px;
-    max-width: 1500px;
-    margin: 0 auto;
+.description {
+    max-width: 800px;
 }
 
-h1 {
-    font-size: 90px;
-    margin-bottom: 10px;
-    line-height: 120%;
+.description p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #333;
+    font-weight: 400;
 }
 
-.name {
-    font-weight: bold;
-}
-
-.titles {
-    font-size: 15px;
-    margin-bottom: 30px;
-}
-
-.titles span {
-    display: inline-block;
-}
-
-.bio {
-    font-size: 18px;
-    max-width: 600px;
-}
-
-.mv-logo {
-    font-weight: bold;
-    font-size: 20px;
-}
-/* .featured-projects {
+/* Featured Projects Section */
+.featured-projects {
     padding: 4rem 2rem;
     background-color: #1C1C1C;
     color: white;
@@ -91,6 +81,7 @@ h1 {
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .project-tags {
     display: flex;
     gap: 0.5rem;
@@ -124,6 +115,7 @@ h1 {
     height: auto;
     display: block;
 }
+
 .view-project {
     background: none;
     border: none;
@@ -151,6 +143,7 @@ h1 {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: 1fr;
@@ -159,4 +152,4 @@ h1 {
     .featured-projects h2 {
         font-size: 2.5rem;
     }
-}  */
+} 
