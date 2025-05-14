@@ -62,12 +62,8 @@ h1 {
     color: white;
 }
 
-.featured-projects h2 {
-    font-size: 3.5rem;
-    font-weight: 300;
-    margin-bottom: 3rem;
-    font-family: 'Times New Roman', serif;
-}
+
+
 
 .projects-grid {
     display: grid;
@@ -107,11 +103,7 @@ h1 {
     font-size: 0.85rem;
 }
 
-.project-card h3 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    line-height: 1.4;
-}
+
 
 .project-image {
     width: 100%;
@@ -144,6 +136,240 @@ h1 {
 .view-project:hover .arrow {
     transform: translateX(5px);
 }
+body {
+    background: #faf9f7;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .about-section {
+    text-align: center;
+    margin: 60px auto;
+    max-width: 1100px;
+  }
+  
+  .about-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .star {
+    font-size: 2.5rem;
+    color: #222;
+  }
+  
+  .divider {
+    width: 3px;
+    height: 60px;
+    background: #d3d3d3;
+    margin: 0 auto 2rem auto;
+  }
+  .about-description {
+    color: #555;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    line-height: 20px;
+  }
+  
+  .skills-btn {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 1px solid #333;
+    border-radius: 42px;
+    background: #fff;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  
+
+  
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .skills-icons img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8%;
+    background: #222;
+    object-fit: contain;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@500&display=swap');
+
+body {
+  background: #ffffff;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.services-section {
+  padding: 60px 0 0 0;
+  background: #232323;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.services-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #bdbdbd;
+  margin-bottom: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto 3.5rem auto;
+}
+.service-card {
+    display: flex;
+    align-items: center;
+    background: #18191b;
+    border-radius: 20px;
+    padding: 1.5rem 2.5rem;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    gap: 1.5rem;
+  }
+  
+  .service-icon {
+    background: #333;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-content {
+    text-align: left;
+  }
+  
+  .service-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .service-desc {
+    font-size: 1.1rem;
+    color: #bdbdbd;
+    font-weight: 400;
+  }
+  .services-quote {
+    margin: 4rem 0 0 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.7rem;
+    color: #e0e0e0;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .highlight {
+    color: #fff;
+    font-weight: 500;
+  }  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Playfair+Display:wght@500&display=swap');
+
+body {
+  background: #fafafa;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-section {
+  padding: 60px 0 0 0;
+  background: #fafafa;
+  text-align: center;
+}
+
+.contact-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.star {
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 24px;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  min-width: 320px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+.contact-icon {
+  margin-bottom: 1.2rem;
+}
+
+.contact-label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 400;
+  word-break: break-all;
+}
 
 /* Responsive Design */
 /* @media (max-width: 1200px) {
@@ -159,5 +385,6 @@ h1 {
     .featured-projects h2 {
         font-size: 2.5rem;
     }
-}  
+}  /*
+  
 
