@@ -153,3 +153,10 @@ body {
         font-size: 2.5rem;
     }
 } 
+
+#circle1{
+    font-size: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: green;
+}
